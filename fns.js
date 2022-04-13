@@ -17,8 +17,8 @@ function res(a, b) {}
 function mul(a, b) {}
 
 function div(a, b) {
-    // Tener en cuenta division por 0
-    // Si b es 0 retornar "Error: div by 0"
+    let result = (b === 0) ? "Error: div by 0" : (a / b);
+    return result;
 }
 
 function pow(a, b) {}

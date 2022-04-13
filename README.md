@@ -2,6 +2,14 @@
 
 Calculadora con funciones simples.
 
+# Grupo <ID>
+
+## Integrantes
+Broitman, Roman
+Desiderio Arana, Cristian Daniel
+Ibañez, Ignacio
+Tastaca, Franco
+
 ## Comandos
 
 ```bash
