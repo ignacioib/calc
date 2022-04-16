@@ -25,6 +25,20 @@ function div(a, b) {
     return result;
 }
 
-function pow(a, b) {}
+function pow(a, b) {
+    
+    if (b == 0){
+        var result = 1; 
+    }else{
+        var result = a;
+        for (i=1;i<b;i++){
+           result = result * a;
+        }
+        
+    }
+    return result;
+
+
+}
 
 module.exports = fns;
