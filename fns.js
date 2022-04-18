@@ -21,7 +21,7 @@ function mul(a, b) {
 }
 
 function div(a, b) {
-    let result = (b != 0) ? "El resultado la division es: " + (a / b) : "ERROR, no es posible divirdir por 0 ...";
+    let result = (b != 0) ? (a / b) : "Error: div by 0";
     return result;
 }
 
